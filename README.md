@@ -24,3 +24,12 @@ For the notebooks in this repository, we use
 For a brief intro to Pluto.jl, take a peek at [this 20 min
 video](https://www.youtube.com/watch?v=Rg3r3gG4nQo). (We promise it's very
 cool!)
+
+## How to run
+To run the files here: 
+
+1. [Download and install Julia](https://julialang.org/downloads/)
+2. Clone the repository
+3. Follow [the instructions to install and run
+   Pluto](https://github.com/fonsp/Pluto.jl?tab=readme-ov-file#lets-do-it) and
+   simply open any of the notebook files from the cloned repo from Pluto.
