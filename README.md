@@ -1,2 +1,18 @@
 # CryptoUtilitiesNotebooks
-Notebooks showing how to use CryptoUtilities
+Notebooks showing how to use the CryptoUtilities.jl library, along with some
+other goodies.
+
+For cryptographers and developers with some familiarity with Python but no
+familiarity with Julia, we recommend starting with `01_basics.jl` and moving on
+from there. The presentation has very few things, but we use these constantly
+in the rest of the notebooks, so it's worth at least a quick peek through. For
+those more familiar with benchmarking, and low level code stuff in Julia
+(`@code_native` and so on), this is mostly a short review and it's not
+necessary to read.
+
+While notebooks 2 and 3 are independent of each other, while notebook 4 depends
+on 2, and each of these depends on the few things introduced in notebook 1.
+Finally, notebook 5 brings pretty much all of it together to construct a
+(relatively fast) succinct proof using the example code from the
+[bcc-research/CryptoUtilitiesExamples](https://github.com/bcc-research/CryptoUtilitiesExamples)
+repository.
