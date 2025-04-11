@@ -24,7 +24,7 @@ begin
 end
 
 # ╔═╡ f0d90a48-1702-11f0-1ca9-91faf837fffd
-md"Another primitive provided by CryptoUtilities is a Merkle tree with built-in batched proof generation and verification."
+md"""Another primitive provided by CryptoUtilities is a Merkle tree with built-in batched proof generation and verification."""
 
 # ╔═╡ b4ec4921-da03-4af5-ab98-7d53aaf97e55
 md"We can start by a simple function that should generate random leaves. To make it look like Ligero over binary fields, let's assume that that each function is an array of random UInt32 elements"
