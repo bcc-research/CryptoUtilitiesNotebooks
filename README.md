@@ -10,10 +10,10 @@ those more familiar with benchmarking, and low level code stuff in Julia
 (`@code_native` and so on), this is mostly a short review and it's not
 necessary to read.
 
-While notebooks 2 and 3 are independent of each other, while notebook 4 depends
-on 2, and each of these depends on the few things introduced in notebook 1.
-Finally, notebook 5 brings pretty much all of it together to construct a
-(relatively fast) succinct proof using the example code from the
+Notebooks 2 and 3 are independent of each other, while notebook 4 depends on 2,
+and each of these depends on the few things introduced in notebook 1. Finally,
+notebook 5 brings pretty much all of it together to construct a (relatively
+fast) succinct proof using the example code from the
 [bcc-research/CryptoUtilitiesExamples](https://github.com/bcc-research/CryptoUtilitiesExamples)
 repository.
 
@@ -26,7 +26,7 @@ video](https://www.youtube.com/watch?v=Rg3r3gG4nQo). (We promise it's very
 cool!)
 
 ## How to run
-To run the files here: 
+To run the files:
 
 1. [Download and install Julia](https://julialang.org/downloads/)
 2. Clone the repository
