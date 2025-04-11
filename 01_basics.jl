@@ -86,7 +86,7 @@ There are some very nice benchmark utilities in Julia (XXX)
 # ╠═8417a507-6b30-4bb3-a89e-06f421aa5850
 # ╟─59e2f602-564e-48ee-9780-0bad80373d42
 # ╠═f160bd24-45d1-4c16-a612-ecd0252326e2
-# ╠═72d4bf34-aed4-4c8c-a4d8-29652bc02385
+# ╟─72d4bf34-aed4-4c8c-a4d8-29652bc02385
 # ╠═e31aff2b-1c88-49b2-8b1b-117784704a64
 # ╟─ce3c9c1d-6425-4fa2-91ec-a681dcf7bb49
 # ╠═f0cbecfa-8392-44d3-ac69-3413146353ac

@@ -264,5 +264,5 @@ That's pretty much it for the `BinaryFields` stuff. For more advanced topics, li
 # ╠═4d6a0553-6b5f-4a3f-8a0e-843cb56fcee2
 # ╠═01076abf-9632-4b72-b5a5-94b40c6eaa72
 # ╠═46373f08-0683-468b-a45b-e10c387a3053
-# ╠═6b4dca4d-a5fb-4973-83ee-9788f5ce10cf
+# ╟─6b4dca4d-a5fb-4973-83ee-9788f5ce10cf
 # ╠═856b9d47-c231-4e6d-99fc-ae6657eed072
