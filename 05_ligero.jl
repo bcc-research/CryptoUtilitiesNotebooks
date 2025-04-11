@@ -7,20 +7,17 @@ using InteractiveUtils
 # ╔═╡ 9057e709-27b8-414a-81ba-93a5d26b93a2
 begin 
 	using Pkg
-	utils_path = "/Users/_andrija_/bain/CryptoUtilities.jl"
+	utils_path = "https://github.com/bcc-research/CryptoUtilities.jl.git"
 	Pkg.add(url=utils_path, subdir="BinaryFields")
 	Pkg.add(url=utils_path, subdir="BinaryReedSolomon")
 	Pkg.add(url=utils_path, subdir="MerkleTree")
 	
-	examples_path = "/Users/_andrija_/bain/CryptoUtilitiesExamples"
+	examples_path = "https://github.com/bcc-research/CryptoUtilitiesExamples.git"
 	Pkg.add(url=examples_path, subdir="Ligero")
 end
 
 # ╔═╡ 0d6bbe3b-a98b-417b-b760-73f00ede109f
-begin
-	using BinaryFields 
-	using Ligero
-end
+using BinaryFields, Ligero
 
 # ╔═╡ 8f19110e-16fb-11f0-08fa-71c11f3b861d
 md"In this notebook we will make a simple Ligero proof and verify it."
@@ -67,16 +64,13 @@ md"Be very careful here! Remember that soundness of Ligero depents on the size o
 md"With a simple combinatorics argument it can be shown that 148 queries for a ReedSolomon code and rate 1/4 is enough to achieve 100-bit security"
 
 # ╔═╡ a3360497-6e4d-4c19-9540-bb5205febe63
-md"After receiving queries and randomness prover can proceed to construct a proof. The premisse of Ligero is essentially saying that, given a matrix which columns are codewords, with a very high probability their random linear combination is also a codeword. Therefore the proof is simply a message which encoding is a codeword that is result of randomly combining the columns (with the randomness given by verifier) of the committed matrix together with a Merkle openings"
+md"After receiving queries and randomness prover can proceed to construct a proof. The premise of Ligero is essentially saying that, if a random linear combination of columns of a matrix is close to some codeword, then (with high probability) each of the original columns must also be close to codewords. The prover simply provides the resulting random linear combination of the columns (which is a vector) to the verifier, who then spot checks a few entries to ensure consistency."
 
 # ╔═╡ 8b70c48c-3ea6-4d4a-ad47-bb027a1dc87b
 proof = prove(comm, gr, S_sorted)
 
 # ╔═╡ c4ab8a50-d3f9-4614-8755-0a91dae95c7b
-begin 
-	proof_size = sizeof(proof)
-	print(Base.format_bytes(proof_size))
-end
+Base.format_bytes(sizeof(proof))
 
 # ╔═╡ 3e136bdc-a92f-4d82-b818-247f0718408c
 md"And finally let's verify the proof given the commitment, queries and sampled randomness"
@@ -97,7 +91,7 @@ verify(proof, verifier_comm, S_sorted, gr)
 # ╠═349366dc-b263-4081-8e7f-e436875244ae
 # ╠═fc451d62-57fd-493c-9d52-e0f3b7a3b182
 # ╠═35897be6-6275-44a9-9af5-baab18343759
-# ╠═a3360497-6e4d-4c19-9540-bb5205febe63
+# ╟─a3360497-6e4d-4c19-9540-bb5205febe63
 # ╠═8b70c48c-3ea6-4d4a-ad47-bb027a1dc87b
 # ╠═c4ab8a50-d3f9-4614-8755-0a91dae95c7b
 # ╠═3e136bdc-a92f-4d82-b818-247f0718408c

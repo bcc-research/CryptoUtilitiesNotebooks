@@ -58,9 +58,6 @@ function sample_queries(a::Int, b::Int, n::Int=100)
 	return randperm(b - a + 1)[1:n] .+ (a - 1)
 end
 
-# ╔═╡ b98002d7-7912-452c-9621-c60ab3a5aa70
-
-
 # ╔═╡ 7070251a-8c33-4129-a7c9-ae7ee322ec01
 md"""
 First, we build the complete merkle tree, this will return a `CompleteMerkleTree` object that we can use to construct opening proofs
@@ -94,7 +91,7 @@ The proof size of this batched proof is (cheating slightly as the proof objects 
 """
 
 # ╔═╡ e56d5767-43ed-48cd-81fa-7e5a877bdf91
-Base.format_bytes(length(proof.proof)*256/8)
+Base.format_bytes(sizeof(proof))
 
 # ╔═╡ 94eb9399-aa9c-4929-a5b0-f769bed08a87
 md"""
@@ -130,7 +127,6 @@ end
 # ╠═286ce6cb-e003-4bf4-b393-0892b0c6367a
 # ╠═7bec0f6d-6c30-41a4-939e-aae1b6c8a93f
 # ╠═52e74295-fe96-4b2a-b0e5-c10701da0581
-# ╠═b98002d7-7912-452c-9621-c60ab3a5aa70
 # ╟─7070251a-8c33-4129-a7c9-ae7ee322ec01
 # ╠═c9c330ea-fae0-42dc-8bce-eca3d657c0b8
 # ╟─eb506af5-3e8f-4076-a9e5-9680b7a5f918
