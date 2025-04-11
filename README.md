@@ -16,3 +16,11 @@ Finally, notebook 5 brings pretty much all of it together to construct a
 (relatively fast) succinct proof using the example code from the
 [bcc-research/CryptoUtilitiesExamples](https://github.com/bcc-research/CryptoUtilitiesExamples)
 repository.
+
+## Pluto.jl
+For the notebooks in this repository, we use
+[Pluto.jl](https://github.com/fonsp/Pluto.jl).
+
+For a brief intro to Pluto.jl, take a peek at [this 20 min
+video](https://www.youtube.com/watch?v=Rg3r3gG4nQo). (We promise it's very
+cool!)

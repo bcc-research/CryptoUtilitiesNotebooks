@@ -215,9 +215,6 @@ Specifically, under the hood, Julia knows how to 'upcast' elements correctly. In
 That's pretty much it for the `BinaryFields` stuff. For more advanced topics, like Reed–Solomon encodings, or how to use this library to run a basic succinct proof system like Ligero, check out the other notebooks.
 """
 
-# ╔═╡ 856b9d47-c231-4e6d-99fc-ae6657eed072
-
-
 # ╔═╡ Cell order:
 # ╟─46125d64-d8cb-45f1-9a52-6605bae3d61a
 # ╠═44aaaa20-1706-11f0-07da-a7a2143bc8de
@@ -227,42 +224,41 @@ That's pretty much it for the `BinaryFields` stuff. For more advanced topics, li
 # ╟─7d80d539-6d6d-4978-9a83-5995ec9a3815
 # ╠═b85d5f43-2ce8-4556-a6b0-24bd0980be23
 # ╠═5d1b8580-dd61-4ae0-af35-d515cc0cbf39
-# ╠═dc0a7bfd-e618-4947-b66f-7949b6f17dc3
+# ╟─dc0a7bfd-e618-4947-b66f-7949b6f17dc3
 # ╠═0aaa1c16-ac4a-49ad-ac96-e210cc75aaf9
-# ╠═c4fa1511-3c90-4f89-b368-aaf72b37cf93
+# ╟─c4fa1511-3c90-4f89-b368-aaf72b37cf93
 # ╠═ba717d00-f8c3-433e-954e-2c16e83282da
-# ╠═babcf2d7-d8ba-4efe-be87-1627b485892e
+# ╟─babcf2d7-d8ba-4efe-be87-1627b485892e
 # ╟─bb2db986-8f48-4e8d-b69c-f1c83894dd0a
 # ╠═85b2773a-5380-4adc-abe4-f1ffddd5c6e7
 # ╟─169a4bb6-30dc-4482-850e-2e35ef46a6c7
 # ╠═850ef7b8-a5da-4e6a-90c3-84dda633acda
 # ╟─abd0200d-2d0c-4dbf-9f89-a8480ca479a8
 # ╠═1fd49d5e-dd49-46c9-b0bb-2eaf6e4d5c53
-# ╠═09621926-b853-425f-9c04-f434a744b91c
+# ╟─09621926-b853-425f-9c04-f434a744b91c
 # ╠═5e823daf-accb-4226-8e5c-fe6221d4ed18
-# ╠═116abcc3-9b2c-41c6-83dd-7acff73bccd5
+# ╟─116abcc3-9b2c-41c6-83dd-7acff73bccd5
 # ╠═473ded59-38da-4224-9e30-b3ec4bbd0ffe
 # ╟─a1818409-e572-4af0-9d28-13459c56ddfc
 # ╠═88e95733-d4ce-401c-a993-f2336531fac7
 # ╠═5d4aa8c3-776e-473c-ab62-e03aac2025f6
-# ╠═347d0172-ad11-489b-8092-70d563ddf2ca
-# ╠═32c43fea-0a48-4621-b363-24dcc2f1ef8d
+# ╟─347d0172-ad11-489b-8092-70d563ddf2ca
+# ╟─32c43fea-0a48-4621-b363-24dcc2f1ef8d
 # ╠═eb703b67-6d3f-47d8-9b50-416922ba4666
-# ╠═a96f0162-8003-49fd-9a1c-73e336da4584
+# ╟─a96f0162-8003-49fd-9a1c-73e336da4584
 # ╠═f2d41618-20ed-4477-b7a9-1fe11ae1e6ea
 # ╠═496f2dde-9f53-4bdf-8e32-9a652ebf8b40
-# ╠═6e4c93c9-80ca-424b-a9e7-bf4ba4b5df38
+# ╟─6e4c93c9-80ca-424b-a9e7-bf4ba4b5df38
 # ╠═eeb32ee8-cf3f-4adf-a134-3b07a0beb014
-# ╠═19cacb85-e868-4de1-b909-c74176249ef8
-# ╠═80157e5e-eeca-4e0c-b0c3-9b2eaba0fa09
+# ╟─19cacb85-e868-4de1-b909-c74176249ef8
+# ╟─80157e5e-eeca-4e0c-b0c3-9b2eaba0fa09
 # ╠═09d7cc88-914c-48df-b5f8-68eb97244f30
-# ╠═4d698782-56ee-4558-9901-5c3181e59fcd
+# ╟─4d698782-56ee-4558-9901-5c3181e59fcd
 # ╠═d8aba143-ffe0-41b1-bd2e-89f1ab8064b0
-# ╠═6dfc65a9-8381-4d1a-826d-10574d0fdd11
+# ╟─6dfc65a9-8381-4d1a-826d-10574d0fdd11
 # ╠═5773f9e1-446e-4fb3-915a-8095bd4ccc1b
 # ╠═ea937968-dd56-4614-a647-438ebfde417e
-# ╠═4d6a0553-6b5f-4a3f-8a0e-843cb56fcee2
+# ╟─4d6a0553-6b5f-4a3f-8a0e-843cb56fcee2
 # ╠═01076abf-9632-4b72-b5a5-94b40c6eaa72
 # ╠═46373f08-0683-468b-a45b-e10c387a3053
 # ╟─6b4dca4d-a5fb-4973-83ee-9788f5ce10cf
-# ╠═856b9d47-c231-4e6d-99fc-ae6657eed072

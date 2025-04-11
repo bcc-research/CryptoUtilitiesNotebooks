@@ -96,9 +96,9 @@ md"In the next notebook we proceed to build a Ligero proving system on top of Cr
 # ╠═ebe614e4-47ac-44ad-9149-a639792d501d
 # ╟─8aaad925-92ac-41c6-b9a4-ba95930911b4
 # ╠═6a8f44ae-980d-481f-ab21-3be15634cd63
-# ╠═f635864c-d60a-4dc1-93b0-1aac01d39ad6
+# ╟─f635864c-d60a-4dc1-93b0-1aac01d39ad6
 # ╠═bbdb3e6a-50d1-46df-9c40-77cd0535d019
 # ╠═5a90c671-f691-43c2-8cd2-8d442714bc7f
 # ╠═45495c3e-bb9a-4743-91c6-9300117cd315
 # ╠═8f98d9af-fc49-4140-a319-fc331625b950
-# ╠═a2e47a7b-94d6-4831-8574-ac600e718433
+# ╟─a2e47a7b-94d6-4831-8574-ac600e718433
