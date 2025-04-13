@@ -12,7 +12,7 @@ begin
 	Pkg.add(url=utils_path, subdir="BinaryReedSolomon")
 	Pkg.add(url=utils_path, subdir="MerkleTree")
 	
-	examples_path = "https://github.com/bcc-research/CryptoUtilitiesExamples.git"
+	examples_path = "/Users/_andrija_/bain/CryptoUtilitiesExamples"
 	Pkg.add(url=examples_path, subdir="Ligero")
 end
 
@@ -29,7 +29,7 @@ md"In this version of Ligero we allow user to simply put the vector it wants to 
 message = rand(BinaryElem32, 2^20)
 
 # ╔═╡ 7231ac77-b4f3-49b9-81d9-07c80c700cb1
-md"The prover starts by, as noted above, reshaping a vector into the matrix and encoding it's columns. Then it commits to the rows of the matrix (in our case via the MerkleTree) and sends that commitment to the verifier"
+md"The prover starts by, as noted above, reshaping a vector into the matrix and encoding its columns. Then it commits to the rows of the matrix (in our case via the MerkleTree) and sends that commitment to the verifier"
 
 # ╔═╡ 9fc6f10a-9200-4532-8556-8541db9fc5f7
 begin
