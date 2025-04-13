@@ -12,7 +12,7 @@ begin
 	Pkg.add(url=utils_path, subdir="BinaryReedSolomon")
 	Pkg.add(url=utils_path, subdir="MerkleTree")
 	
-	examples_path = "/Users/_andrija_/bain/CryptoUtilitiesExamples"
+	examples_path = "https://github.com/bcc-research/CryptoUtilitiesExamples.git"
 	Pkg.add(url=examples_path, subdir="Ligero")
 end
 
