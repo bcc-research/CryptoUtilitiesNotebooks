@@ -20,7 +20,11 @@ end
 using BinaryFields, Ligero
 
 # ╔═╡ 8f19110e-16fb-11f0-08fa-71c11f3b861d
-md"In this notebook we will make a simple Ligero proof and verify it."
+md"""
+# Ligero
+
+In this notebook we will make a simple Ligero proof and verify it. Most of the code is from the [Ligero](https://github.com/bcc-research/CryptoUtilitiesExamples/tree/main/Ligero) example in the [CryptoUtilitiesExamples](https://github.com/bcc-research/CryptoUtilitiesExamples/) repository. We will simply be calling most of the utilities from [Ligero.jl](https://github.com/bcc-research/CryptoUtilitiesExamples/blob/main/Ligero/src/Ligero.jl) since `Ligero` is a single-file package.
+"""
 
 # ╔═╡ 31b81f6a-f009-4992-a363-25bae8b7cb34
 md"In this version of Ligero we allow user to simply put the vector it wants to encode, and we reshape it into the matrix of optimal dimensions. This comes very handy when using Ligero as a form of PCS."
