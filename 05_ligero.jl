@@ -58,7 +58,7 @@ begin
 end
 
 # ╔═╡ 349366dc-b263-4081-8e7f-e436875244ae
-md"Be very careful here! Remember that soundness of Ligero depents on the size of the field. Thus sampling randomness from $F_{2^{32}}$ field will not be enough! That's why verifier samples randomness from much larger field, in our case $F_{2^{128}}$"
+md"Be very careful here! Remember that soundness of Ligero depents on the size of the field. Thus sampling randomness from $\mathbf{F}_{2^{32}}$ field will not be enough! That's why verifier samples randomness from much larger field, in our case $\mathbf{F}_{2^{128}}$"
 
 # ╔═╡ 35897be6-6275-44a9-9af5-baab18343759
 md"With a simple combinatorics argument it can be shown that 148 queries for a ReedSolomon code and rate 1/4 is enough to achieve 100-bit security"
@@ -79,20 +79,20 @@ md"And finally let's verify the proof given the commitment, queries and sampled 
 verify(proof, verifier_comm, S_sorted, gr)
 
 # ╔═╡ Cell order:
-# ╠═8f19110e-16fb-11f0-08fa-71c11f3b861d
+# ╟─8f19110e-16fb-11f0-08fa-71c11f3b861d
 # ╠═9057e709-27b8-414a-81ba-93a5d26b93a2
 # ╠═0d6bbe3b-a98b-417b-b760-73f00ede109f
-# ╠═31b81f6a-f009-4992-a363-25bae8b7cb34
+# ╟─31b81f6a-f009-4992-a363-25bae8b7cb34
 # ╠═b68a3176-2e94-43ee-95f9-65bae1eb4834
-# ╠═7231ac77-b4f3-49b9-81d9-07c80c700cb1
+# ╟─7231ac77-b4f3-49b9-81d9-07c80c700cb1
 # ╠═9fc6f10a-9200-4532-8556-8541db9fc5f7
-# ╠═8f72c03c-36ce-411a-b32e-dcecc2039afe
+# ╟─8f72c03c-36ce-411a-b32e-dcecc2039afe
 # ╠═93920392-24ed-48fc-b0ed-ae9af686b15c
-# ╠═349366dc-b263-4081-8e7f-e436875244ae
+# ╟─349366dc-b263-4081-8e7f-e436875244ae
 # ╠═fc451d62-57fd-493c-9d52-e0f3b7a3b182
-# ╠═35897be6-6275-44a9-9af5-baab18343759
+# ╟─35897be6-6275-44a9-9af5-baab18343759
 # ╟─a3360497-6e4d-4c19-9540-bb5205febe63
 # ╠═8b70c48c-3ea6-4d4a-ad47-bb027a1dc87b
 # ╠═c4ab8a50-d3f9-4614-8755-0a91dae95c7b
-# ╠═3e136bdc-a92f-4d82-b818-247f0718408c
+# ╟─3e136bdc-a92f-4d82-b818-247f0718408c
 # ╠═f24461f7-ee01-48d0-9ab4-56f7d2d7f3a2

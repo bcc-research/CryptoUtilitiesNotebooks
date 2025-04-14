@@ -154,7 +154,7 @@ Similar to `BinaryPoly` we can add and multiply binary elements
 md"""
 Note that, unlike a binary polynomial, the result of multiplying two 16-bit binary elements is just another 16-bit binary element: we take the underlying polynomials, multiply them (receiving a degree-32 polynomial) and then reduce them modulo a degree 16 irreducible polynomial.
 
-We can see that the resulting number of operation here is _very small_: indeed, if you look into `BinaryFields`, we generate relatively compact code at compile time!
+We can see that the resulting number of operation here is _very small_: indeed, if you look into `BinaryFields`, we generate relatively compact code at compile time! (The printout from `@code_native` is scrollable.)
 """
 
 # ╔═╡ eeb32ee8-cf3f-4adf-a134-3b07a0beb014
