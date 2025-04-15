@@ -17,6 +17,18 @@ fast) succinct proof using the example code from the
 [bcc-research/CryptoUtilitiesExamples](https://github.com/bcc-research/CryptoUtilitiesExamples)
 repository.
 
+## Viewing notebooks
+To simply view the notebooks, statically compiled HTML files are available
+in this repository.
+
+1. [Julia basics](https://bcc-research.github.io/CryptoUtilitiesNotebooks/01_basics.html)
+2. [BinaryFields](https://bcc-research.github.io/CryptoUtilitiesNotebooks/02_binaryfields.html)
+3. [MerkleTree](https://bcc-research.github.io/CryptoUtilitiesNotebooks/03_merkletree.html)
+4. [BinaryReedSolomon](https://bcc-research.github.io/CryptoUtilitiesNotebooks/04_reedsolomon.html)
+5. [Ligero](https://bcc-research.github.io/CryptoUtilitiesNotebooks/05_ligero.html)
+
+We highly recommend running these locally, though, and instructions for that are below!
+
 ## Pluto.jl
 For the notebooks in this repository, we use
 [Pluto.jl](https://github.com/fonsp/Pluto.jl).

@@ -42,6 +42,13 @@ As expected, we can add these two polynomials, which results in the polynomial $
 # ╔═╡ b85d5f43-2ce8-4556-a6b0-24bd0980be23
 f+g
 
+# ╔═╡ 781e2cf8-c0a8-4334-bd33-45eed5ba3ddb
+md"""
+From before, we can check that, even though the type presented here is a struct wrapper around a `UInt64`, the resulting "addition" operation really does compile down to essentially the minimal number of instructions. These perform the following steps:
+1. Load the appropriate registers
+2. Perform an XOR of these (newly-loaded) registers
+"""
+
 # ╔═╡ 5d1b8580-dd61-4ae0-af35-d515cc0cbf39
 @code_native f+g
 
@@ -223,6 +230,7 @@ That's pretty much it for the `BinaryFields` stuff. For more advanced topics, li
 # ╠═6d490563-d602-406d-ac72-f53231e01a2b
 # ╟─7d80d539-6d6d-4978-9a83-5995ec9a3815
 # ╠═b85d5f43-2ce8-4556-a6b0-24bd0980be23
+# ╟─781e2cf8-c0a8-4334-bd33-45eed5ba3ddb
 # ╠═5d1b8580-dd61-4ae0-af35-d515cc0cbf39
 # ╟─dc0a7bfd-e618-4947-b66f-7949b6f17dc3
 # ╠═0aaa1c16-ac4a-49ad-ac96-e210cc75aaf9
