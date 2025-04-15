@@ -7,9 +7,13 @@ using InteractiveUtils
 # ╔═╡ 44aaaa20-1706-11f0-07da-a7a2143bc8de
 begin
 	import Pkg
+	Pkg.activate(".")
 	git_url = "https://github.com/bcc-research/CryptoUtilities.jl.git"
 	Pkg.add(url=git_url, subdir="BinaryFields")
 end
+
+# ╔═╡ f73f974f-2790-4a75-a320-5eddf0126d19
+Pkg.add("BenchmarkTools")
 
 # ╔═╡ 2c9f6aed-b739-49db-99e7-94ef9a20ac25
 using BinaryFields
@@ -248,6 +252,7 @@ That's pretty much it for the `BinaryFields` stuff. For more advanced topics, li
 # ╟─116abcc3-9b2c-41c6-83dd-7acff73bccd5
 # ╠═473ded59-38da-4224-9e30-b3ec4bbd0ffe
 # ╟─a1818409-e572-4af0-9d28-13459c56ddfc
+# ╠═f73f974f-2790-4a75-a320-5eddf0126d19
 # ╠═88e95733-d4ce-401c-a993-f2336531fac7
 # ╠═5d4aa8c3-776e-473c-ab62-e03aac2025f6
 # ╟─347d0172-ad11-489b-8092-70d563ddf2ca

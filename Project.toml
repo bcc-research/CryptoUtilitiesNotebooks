@@ -1,0 +1,6 @@
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+BinaryFields = "0fee9d7f-8397-4f0d-9ec6-117db1666467"
+BinaryReedSolomon = "8a283c49-c6d0-46c5-bbc1-5b2a51f34960"
+Ligero = "fa90d5eb-6e8c-4852-b6e4-8d36b052d679"
+MerkleTree = "225b011c-e439-4471-b39b-04a9a0fe32f0"

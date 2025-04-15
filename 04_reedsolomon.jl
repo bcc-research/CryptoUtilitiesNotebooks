@@ -7,10 +7,14 @@ using InteractiveUtils
 # ╔═╡ 972386be-16f2-11f0-36c5-fbe5da0445d9
 begin 
 	using Pkg
+	Pkg.activate(".")
 	lib_path = "https://github.com/bcc-research/CryptoUtilities.jl.git"
 	Pkg.add(url=lib_path, subdir="BinaryFields")
 	Pkg.add(url=lib_path, subdir="BinaryReedSolomon")
 end
+
+# ╔═╡ 7872804a-60db-4983-89fe-9dc5ff73d43d
+Pkg.add("BenchmarkTools")
 
 # ╔═╡ 33c89c91-0ef4-4986-95e8-d1f65482fd91
 using BinaryFields, BinaryReedSolomon
@@ -97,6 +101,7 @@ md"In the next notebook we proceed to build a Ligero proving system on top of Cr
 # ╟─8aaad925-92ac-41c6-b9a4-ba95930911b4
 # ╠═6a8f44ae-980d-481f-ab21-3be15634cd63
 # ╟─f635864c-d60a-4dc1-93b0-1aac01d39ad6
+# ╠═7872804a-60db-4983-89fe-9dc5ff73d43d
 # ╠═bbdb3e6a-50d1-46df-9c40-77cd0535d019
 # ╟─5a90c671-f691-43c2-8cd2-8d442714bc7f
 # ╠═45495c3e-bb9a-4743-91c6-9300117cd315

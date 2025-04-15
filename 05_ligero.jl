@@ -7,6 +7,7 @@ using InteractiveUtils
 # ╔═╡ 9057e709-27b8-414a-81ba-93a5d26b93a2
 begin 
 	using Pkg
+	Pkg.activate(".")
 	utils_path = "https://github.com/bcc-research/CryptoUtilities.jl.git"
 	Pkg.add(url=utils_path, subdir="BinaryFields")
 	Pkg.add(url=utils_path, subdir="BinaryReedSolomon")

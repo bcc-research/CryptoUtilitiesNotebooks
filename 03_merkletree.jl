@@ -7,6 +7,7 @@ using InteractiveUtils
 # ╔═╡ da35730f-0a52-45f0-941a-aad90e80af2f
 begin 
 	using Pkg
+	Pkg.activate(".")
 	utils_path = "https://github.com/bcc-research/CryptoUtilities.jl.git"
 	Pkg.add(url=utils_path, subdir="MerkleTree")
 end
