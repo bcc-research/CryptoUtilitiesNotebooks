@@ -11,7 +11,7 @@ begin
 	utils_path = "https://github.com/bcc-research/CryptoUtilities.jl.git"
 	Pkg.add(url=utils_path, subdir="BinaryFields")
 	Pkg.add(url=utils_path, subdir="BinaryReedSolomon")
-	Pkg.add(url=utils_path, subdir="MerkleTree")
+	Pkg.add(url=utils_path, subdir="BatchedMerkleTree")
 	
 	examples_path = "https://github.com/bcc-research/CryptoUtilitiesExamples.git"
 	Pkg.add(url=examples_path, subdir="Ligero")

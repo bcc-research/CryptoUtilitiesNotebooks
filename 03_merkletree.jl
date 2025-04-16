@@ -9,11 +9,11 @@ begin
 	using Pkg
 	Pkg.activate(".")
 	utils_path = "https://github.com/bcc-research/CryptoUtilities.jl.git"
-	Pkg.add(url=utils_path, subdir="MerkleTree")
+	Pkg.add(url=utils_path, subdir="BatchedMerkleTree")
 end
 
 # ╔═╡ 4cd5a088-e02b-4de8-b867-02c2095c73ff
-using MerkleTree
+using BatchedMerkleTree
 
 # ╔═╡ 286ce6cb-e003-4bf4-b393-0892b0c6367a
 using Random
