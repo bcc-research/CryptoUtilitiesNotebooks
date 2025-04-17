@@ -1,5 +1,5 @@
 # CryptoUtilitiesNotebooks
-Notebooks showing how to use the CryptoUtilities.jl library, along with some
+Notebooks showing how to use the [CryptoUtilities.jl library](https://github.com/bcc-research/CryptoUtilities.jl), along with some
 other goodies.
 
 For cryptographers and developers with some familiarity with Python but no
